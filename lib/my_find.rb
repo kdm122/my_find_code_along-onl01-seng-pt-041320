@@ -1,5 +1,7 @@
 require 'pry'
 
+
+
 def my_find(collection)
   i = 0 
   while i < collection.length
@@ -9,3 +11,6 @@ def my_find(collection)
  end
 
 end
+
+collection = (1..100).to_a
+my_find(collection) {|i| i % 5 ===
