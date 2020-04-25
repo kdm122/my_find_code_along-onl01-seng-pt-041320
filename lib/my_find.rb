@@ -13,4 +13,5 @@ def my_find(collection)
 end
 
 collection = (1..100).to_a
-my_find(collection) {|i| i % 5 ===
+my_find(collection) {|i| i % 4 == 0 and i % 6 == 0}
+
